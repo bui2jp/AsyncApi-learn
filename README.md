@@ -61,5 +61,5 @@ default:
 
 # documentの出力は @asyncapi/html-template
 ```
-
+$ sudo ag streetlights.yml @asyncapi/html-template -o output_doc
 ```
