@@ -1,17 +1,17 @@
-# AsyncApi-learn
+# AsyncApi-learn (nodejs-template)
 
 https://www.asyncapi.com/
 
-##　@asyncapi/nodejs-template の利用
+## @asyncapi/nodejs-template の利用
 
 https://github.com/asyncapi/nodejs-template
 
-### サポートされているプロトコル
+### nodejs-template でサポートされているプロトコル
 AMQP, MQTT, Kafka, WebSocket
 
 ### snippet
 ```
-$ npm install -g @asyncapi/generator
+$ sudo npm install -g @asyncapi/generator
 ```
 
 定義ファイルをローカルへ落としておく
@@ -22,6 +22,10 @@ $ curl https://raw.githubusercontent.com/asyncapi/asyncapi/2.0.0/examples/2.0.0/
 nodejsのcodeをGenerate
 ```
 $ sudo ag streetlights.yml @asyncapi/nodejs-template -o output -p server=production
+```
+
+```
+$ sudo ag streetlights.yml ./ -o output -p server=production
 ```
 
 実行
@@ -54,3 +58,4 @@ default:
       retain:
       subscribe: true
 ```
+
