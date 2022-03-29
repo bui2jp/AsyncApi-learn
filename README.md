@@ -59,3 +59,7 @@ default:
       subscribe: true
 ```
 
+# documentの出力は @asyncapi/html-template
+```
+
+```

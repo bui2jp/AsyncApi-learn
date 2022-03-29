@@ -1,11 +1,11 @@
 default:
   app:
     name: Streetlights API
-    version: 1.0.0
+    version: 1.0.2
 
   broker:
     mqtt:
-      url: mqtt://test.mosquitto.org:1883
+      url: mqtt://test.mosquitto.org:1883/v1
       topics: ["smartylighting/streetlights/1/0/event/+/lighting/measured"]
       qos:
       protocol: mqtt

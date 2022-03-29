@@ -1,7 +1,7 @@
 asyncapi: '2.0.0'
 info:
   title: Streetlights API
-  version: '1.0.0'
+  version: '1.0.2'
   description: |
     The Smartylighting Streetlights API allows you to remotely manage the city lights.
 
@@ -16,7 +16,7 @@ info:
 
 servers:
   production:
-    url: test.mosquitto.org:{port}
+    url: test.mosquitto.org:{port}/v1
     protocol: mqtt
     description: Test broker
     variables:
