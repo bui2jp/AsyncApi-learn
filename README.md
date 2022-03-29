@@ -6,6 +6,8 @@ https://www.asyncapi.com/
 
 https://github.com/asyncapi/nodejs-template
 
+![](pic01.png)
+
 ### nodejs-template でサポートされているプロトコル
 AMQP, MQTT, Kafka, WebSocket
 
